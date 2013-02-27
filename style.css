@@ -63,8 +63,21 @@ header #page-header {
 	margin: 0 auto;
 }
 
+#page-header #logo {
+	display: inline-block;
+}
+
+#page-header #frase {
+	float: right;
+}
+
 #page-header #logo a img {
 	margin-top: 2em;
+	max-width: 100%;
+}
+
+#page-header #frase a img {
+	margin-top: 2.5em;
 	max-width: 100%;
 }
 
@@ -555,9 +568,7 @@ button.submit:active {
     box-shadow: 0 0 10px 5px #444 inset;
 }
 
-
-
-@media(min-width: 1080px) {
+@media(min-width: 1500px) {
 	header h2 {
 		text-align: left;
 		width: 35%;
@@ -572,6 +583,38 @@ button.submit:active {
 	}
 }
 
+@media(max-width: 1500px) {
+	header h2 {
+		text-align: left;
+		width: 35%;
+	}
+
+	nav {
+		width: 60%;
+	}
+
+	.text {
+		max-width: 60%;
+	}
+
+	header #page-header {
+		max-width: 70%;
+		height: 200px;
+	}
+
+	#page-header #logo {
+		max-width: 70%;
+	}
+
+	#page-header #frase {
+		max-width: 40%;
+	}
+
+	#page-header #frase a img {
+		max-width: 80%;
+	}
+}
+
 
 @media(max-width: 1080px) {
 	nav li {
@@ -580,6 +623,11 @@ button.submit:active {
 
 	.text {
 		max-width: 90%;
+	}
+
+	header #page-header {
+		max-width: 80%;
+		height: 180px;
 	}
 
 	footer #page-footer {
@@ -640,12 +688,29 @@ button.submit:active {
 		font-size: 0.9em;
 	}
 
+	#page-header #frase {
+		max-width: 30%;
+		float: right;
+	}
+
+	#page-header #frase a img {
+		max-width: 60%;
+		float: right;
+	}
+
 	section .content {
 		max-width: 95%;
 	}
 
 	section .content ul li {
 		margin: 5px 5px 5px 5px;
+	}
+
+	/*HEADER*/
+
+	header #page-header {
+		max-width: 95%;
+		height: 150px;
 	}
 
 	/*ORGANIZADOR*/
@@ -715,6 +780,24 @@ button.submit:active {
 	.text {
 		max-width: 90%;
 		font-size: 0.9em;
+	}
+
+	/*HEADER*/
+
+	header #page-header {
+		max-width: 95%;
+		height: 120px;
+	}
+
+	#page-header #frase {
+		max-width: 20%;
+		float: right;
+	}
+
+	#page-header #frase a img {
+		margin-top: 2.1em;
+		max-width: 80%;
+		float: right;
 	}
 
 	section .content ul li img {
@@ -790,13 +873,6 @@ button.submit:active {
 	section #sponsors {
 		margin: 0 auto;
 		max-width: 95%;
-	}
-
-	/*HEADER*/
-
-	header #page-header {
-		max-width: 95%;
-		height: 150px;
 	}
 
 	/*FOOTER*/

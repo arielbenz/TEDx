@@ -30,6 +30,10 @@
 			<div id="logo">
 				<a href="http://localhost/TEDx/"><img alt="TEDx" src="http://localhost/TEDx/img/logo.jpg"></a>
 			</div>
+
+			<div id="frase">
+				<a href="http://localhost/TEDx/"><img alt="TEDx" src="http://localhost/TEDx/img/frase2.jpg"></a>
+			</div>
 		</div>
 	</header>
 
