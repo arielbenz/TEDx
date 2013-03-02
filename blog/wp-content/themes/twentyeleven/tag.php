@@ -7,37 +7,36 @@
  * @since Twenty Eleven 1.0
  */
 
-get_header(); ?>
+include $_SERVER ['DOCUMENT_ROOT'].'TEDx/header.php';?>
 
-		<section id="primary">
-			<div id="content" role="main">
+
+			<div id="noticias">
 
 			<?php if ( have_posts() ) : ?>
 
-				<header class="page-header">
-					<h1 class="page-title"><?php
-						printf( __( 'Tag Archives: %s', 'twentyeleven' ), '<span>' . single_tag_title( '', false ) . '</span>' );
-					?></h1>
-
-					<?php
-						$tag_description = tag_description();
-						if ( ! empty( $tag_description ) )
-							echo apply_filters( 'tag_archive_meta', '<div class="tag-archive-meta">' . $tag_description . '</div>' );
-					?>
-				</header>
-
-				<?php twentyeleven_content_nav( 'nav-above' ); ?>
-
-				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php
-						/* Include the Post-Format-specific template for the content.
-						 * If you want to overload this in a child theme then include a file
-						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-						 */
-						get_template_part( 'content', get_post_format() );
-					?>
+					<!-- INICIO POST -->
+					<div class="post">
+
+						<!--titulo-->
+						<h2><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+						<!--fin titulo-->
+
+						<h3><?php the_time('j F Y') ?></h3>
+
+						<!--post-->
+						<div class="post-info">
+							<?php the_content(); ?>
+						</div>
+						<!--fin post-->
+						<div class="meta">
+							<p>Escrito por: <?php the_author() ?> en categoria(s): <?php the_category(', ') ?></p>
+							<p><?php the_tags(); ?></p>
+						</div>
+
+					</div>
+					<!-- FIN INFO POST -->
 
 				<?php endwhile; ?>
 
@@ -45,21 +44,11 @@ get_header(); ?>
 
 			<?php else : ?>
 
-				<article id="post-0" class="post no-results not-found">
-					<header class="entry-header">
-						<h1 class="entry-title"><?php _e( 'Nothing Found', 'twentyeleven' ); ?></h1>
-					</header><!-- .entry-header -->
-
-					<div class="entry-content">
-						<p><?php _e( 'Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.', 'twentyeleven' ); ?></p>
-						<?php get_search_form(); ?>
-					</div><!-- .entry-content -->
-				</article><!-- #post-0 -->
+				<h2>Lo que buscas no se encuentra</h2>
 
 			<?php endif; ?>
 
 			</div><!-- #content -->
-		</section><!-- #primary -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+
+<?php include $_SERVER ['DOCUMENT_ROOT'].'TEDx/footer.php'; ?>

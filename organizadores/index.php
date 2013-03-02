@@ -5,42 +5,42 @@
 		<div class="content">
 			<ul>
 				<li>
-					<a href="http://localhost/TEDx/organizadores/edgardo-lurig"><img src="http://localhost/TEDx/img/edgardo.jpg"/>
+					<a href="<?php echo $url?>/organizadores/edgardo-lurig"><img src="<?php echo $url?>/img/edgardo.jpg"/>
 						<h2>Edgardo <b class="color-red">Lürig</b></h2>
 					</a>
 				</li>
 				<li>
-					<a href="http://localhost/TEDx/organizadores/macarena-garcia"><img src="http://localhost/TEDx/img/macarena.jpg"/>
+					<a href="<?php echo $url?>/organizadores/macarena-garcia"><img src="<?php echo $url?>/img/macarena.jpg"/>
 						<h2>Macarena <b class="color-red">García</b></h2>
 					</a>
 				</li>
 				<li>
-					<a href="http://localhost/TEDx/organizadores/ariel-benz"><img src="http://localhost/TEDx/img/ariel.jpg"/>
+					<a href="<?php echo $url?>/organizadores/ariel-benz"><img src="<?php echo $url?>/img/ariel.jpg"/>
 						<h2>Ariel <b class="color-red">Benz</b></h2>
 					</a>
 				</li>
 				<li>
-					<a href="http://localhost/TEDx/organizadores/mario-altamirano"><img src="http://localhost/TEDx/img/marito.jpg"/>
+					<a href="<?php echo $url?>/organizadores/mario-altamirano"><img src="<?php echo $url?>/img/marito.jpg"/>
 						<h2>Mario <b class="color-red">Altamirano</b></h2>
 					</a>
 				</li>
 				<li>
-					<a href="http://localhost/TEDx/organizadores/mauro-crosta-diaz"><img src="http://localhost/TEDx/img/mauro.jpg"/>
+					<a href="<?php echo $url?>/organizadores/mauro-crosta-diaz"><img src="<?php echo $url?>/img/mauro.jpg"/>
 						<h2>Mauro <b class="color-red">Crosta Díaz</b></h2>
 					</a>
 				</li>
 				<li>
-					<a href="http://localhost/TEDx/organizadores/maria-alicia-rossini"><img src="http://localhost/TEDx/img/alicia.jpg"/>
+					<a href="<?php echo $url?>/organizadores/maria-alicia-rossini"><img src="<?php echo $url?>/img/alicia.jpg"/>
 						<h2>María Alicia <b class="color-red">Rossini</b></h2>
 					</a>
 				</li>
 				<li>
-					<a href="http://localhost/TEDx/organizadores/juan-pablo-verano"><img src="http://localhost/TEDx/img/pablo.jpg"/>
+					<a href="<?php echo $url?>/organizadores/juan-pablo-verano"><img src="<?php echo $url?>/img/pablo.jpg"/>
 						<h2>Juan Pablo <b class="color-red">Verano</b></h2>
 					</a>
 				</li>
 				<li>
-					<a href="http://localhost/TEDx/organizadores/gaston-rodriguez"><img src="http://localhost/TEDx/img/gaston.jpg"/>
+					<a href="<?php echo $url?>/organizadores/gaston-rodriguez"><img src="<?php echo $url?>/img/gaston.jpg"/>
 						<h2>Gastón <b class="color-red">Rodriguez</b></h2>
 					</a>
 				</li>

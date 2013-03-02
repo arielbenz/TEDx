@@ -7,7 +7,7 @@
 			<div class="title"><h3>José Curiotto</h3></div>
 
 			<div id="orador-pic">
-				<img src="http://localhost/TEDx/img/jose_curiotto.jpg"/>
+				<img src="<?php echo $url?>/img/jose_curiotto.jpg"/>
 			</div>
 
 			<div id="orador-info">

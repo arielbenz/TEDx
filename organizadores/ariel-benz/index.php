@@ -7,14 +7,14 @@
 			<div class="title"><h3>Ariel Benz</h3></div>
 
 			<div id="organizador-pic">
-				<img src="http://localhost/TEDx/img/ariel.jpg"/>
+				<img src="<?php echo $url?>/img/ariel.jpg"/>
 
 				<div id="organizador-links">
 					<ul>
-						<li><a href="http://www.facebook.com/arielmbenz"><img class="alignnone  wp-image-127" title="Contacto en Facebook" src="http://localhost/TEDx/img/facebook_contact.png" alt="" width="40" height="40" /></a></li>
-						<li><a href="http://twitter.com/arielbenz"><img class="alignnone  wp-image-128" title="Contacto en Twitter" src="http://localhost/TEDx/img/twitter_contact.png" alt="" width="40" height="40" /></a></li>
-						<li><a href="http://ar.linkedin.com/in/arielbenz"><img class="alignnone  wp-image-129" title="Contacto en Linkedin" src="http://localhost/TEDx/img/linkedin_contact.png" alt="" width="40" height="40" /></a></li>
-						<li><a href="mailto:ariel@tedxlagunasetubal.org"><img class="alignnone  wp-image-130" title="Contacto por Mail" src="http://localhost/TEDx/img/mail_contact.png" alt="" width="40" height="40" /></a></li>
+						<li><a href="http://www.facebook.com/arielmbenz"><img class="alignnone  wp-image-127" title="Contacto en Facebook" src="<?php echo $url?>/img/facebook_contact.png" alt="" width="40" height="40" /></a></li>
+						<li><a href="http://twitter.com/arielbenz"><img class="alignnone  wp-image-128" title="Contacto en Twitter" src="<?php echo $url?>/img/twitter_contact.png" alt="" width="40" height="40" /></a></li>
+						<li><a href="http://ar.linkedin.com/in/arielbenz"><img class="alignnone  wp-image-129" title="Contacto en Linkedin" src="<?php echo $url?>/img/linkedin_contact.png" alt="" width="40" height="40" /></a></li>
+						<li><a href="mailto:ariel@tedxlagunasetubal.org"><img class="alignnone  wp-image-130" title="Contacto por Mail" src="<?php echo $url?>/img/mail_contact.png" alt="" width="40" height="40" /></a></li>
 					</ul>
 				</div>
 			</div>

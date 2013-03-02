@@ -7,7 +7,7 @@
 			<div class="title"><h3>Cristian Gómez</h3></div>
 
 			<div id="orador-pic">
-				<img src="http://localhost/TEDx/img/cristian_gomez.jpg"/>
+				<img src="<?php echo $url?>/img/cristian_gomez.jpg"/>
 			</div>
 
 			<div id="orador-info">
@@ -18,7 +18,7 @@
 				</div>
 
 				<div id="orador-talk">
-					<iframe type="text/html" width="640" height="385" src="http://www.youtube.com/embed/pRpeEdMmmQ0" frameborder="0"></iframe>
+
 				</div>
 
 			</div>

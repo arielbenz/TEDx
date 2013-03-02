@@ -3,10 +3,11 @@
 	<section>
 		<div id="principal">
 			<h3>
-				En 2012 le dimos vos a 16 <b class="color-red">IDEAS</b></br>
-				Preparate que pronto llega la edición 2013 y no te podes quedar afuera!
+				En 2012 le dimos voz a 16 <b class="color-red">IDEAS</b></br>
+				Preparate que pronto llega la edición 2013 y no te podés quedar afuera!
 			</h3>
 
+			<h4>Acá una reseña de lo que nos dejó el 2012, en palabras de <strong>Gerardo López</strong>.</h4></br>
 			<p>Seguir detectando pecex que nadan contracorriente.</p>
 			<p>Desaprender para cambiar las formas de enseñar a inventar mundos.</p>
 			<p>Salir de las bibliotecas para encontrar personas que son libros.</p>

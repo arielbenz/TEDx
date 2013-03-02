@@ -7,7 +7,7 @@
 			<div class="title"><h3>Ariel Echarren</h3></div>
 
 			<div id="orador-pic">
-				<img src="http://localhost/TEDx/img/ariel_echarren.jpg"/>
+				<img src="<?php echo $url?>/img/ariel_echarren.jpg"/>
 			</div>
 
 			<div id="orador-info">
@@ -20,7 +20,6 @@
 				</div>
 
 				<div id="orador-talk">
-					<iframe type="text/html" width="640" height="385" src="http://www.youtube.com/embed/pRpeEdMmmQ0" frameborder="0"></iframe>
 				</div>
 
 			</div>

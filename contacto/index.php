@@ -7,7 +7,7 @@
 	</section>
 
 	<section class="formulario">
-		<form class="contact_form" action="contacto.php" method="post">
+		<form class="contact_form" action="email.php" method="post">
 		    <ul>
 		       <li>
 		           <label for="name">Nombre:</label>
@@ -19,11 +19,11 @@
 		       </li>
 		       <li>
 		           <label for="website">Sitio Web:</label>
-		           <input type="url" name="web" placeholder="http://ejemplo.com" />
+		           <input type="url" name="website" placeholder="http://ejemplo.com" />
 		       </li>
 		       <li>
-		           <label for="Mensaje">Mensaje:</label>
-		           <textarea name="Mensaje" cols="40" rows="6" required ></textarea>
+		           <label for="mensaje">Mensaje:</label>
+		           <textarea name="mensaje" cols="40" rows="6" required ></textarea>
 		       </li>
 		        <li>
 		          <button class="submit" type="submit">Enviar</button>

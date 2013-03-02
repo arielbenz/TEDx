@@ -1,0 +1,24 @@
+# protect the htaccess file
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+# disable the server signature
+ServerSignature Off
+# disable directory browsing
+Options All -Indexes
+# protect wp-config file
+<Files wp-config.php>
+order allow,deny
+deny from all
+</Files>
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress

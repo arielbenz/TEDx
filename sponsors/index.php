@@ -3,9 +3,9 @@
 	<section>
 
 		<div class="text">
-				<p>Si estás interesado en sponsorear nuestro evento y querés conocer más información acerca de qué incluye cada una de las categorías,
-				te invitamos a que nos escribas a <strong>sponsors@tedxlagunasetubal.org</strong> y así podremos enviarte la presentación exclusiva para futuros sponsors.</p>
-			</div>
+			<p>Si estás interesado en sponsorear nuestro evento y querés conocer más información acerca de qué incluye cada una de las categorías,
+			te invitamos a que nos escribas a <strong>sponsors@tedxlagunasetubal.org</strong> y así podremos enviarte la presentación exclusiva para futuros sponsors.</p>
+		</div>
 
 		<div id="sponsors">
 
@@ -16,7 +16,7 @@
 
 			<ul>
 				<li class="sponsor-logo">
-					<a href="http://www.ucsf.edu.ar"><img src="http://localhost/TEDx/img/ucsf.jpg"/></a>
+					<a href="http://www.ucsf.edu.ar"><img src="<?php echo $url?>/img/ucsf.jpg"/></a>
 				</li>
 			</ul>
 
@@ -24,22 +24,22 @@
 
 			<ul>
 				<li class="sponsor-logo">
-					<a href=""><img src="http://localhost/TEDx/img/la_citi.jpg"/></a>
+					<a href=""><img src="<?php echo $url?>/img/la_citi.jpg"/></a>
 				</li>
 				<li class="sponsor-logo">
-					<a href="http://www.papermayorista.com.ar"><img src="http://localhost/TEDx/img/paper.jpg"/></a>
+					<a href="http://www.papermayorista.com.ar"><img src="<?php echo $url?>/img/paper.jpg"/></a>
 				</li>
 				<li class="sponsor-logo">
-					<a href="http://www.canal9litoral.tv/"><img src="http://localhost/TEDx/img/canal9.jpg"/></a>
+					<a href="http://www.canal9litoral.tv/"><img src="<?php echo $url?>/img/canal9.jpg"/></a>
 				</li>
 				<li class="sponsor-logo">
-					<a href="http://www.improvein.com/"><img src="http://localhost/TEDx/img/improvein.jpg"/></a>
+					<a href="http://www.improvein.com/"><img src="<?php echo $url?>/img/improvein.jpg"/></a>
 				</li>
 				<li class="sponsor-logo">
-					<a href="http://www.imprentagiacomisi.com/"><img src="http://localhost/TEDx/img/giacomisi.jpg"/></a>
+					<a href="http://www.imprentagiacomisi.com/"><img src="<?php echo $url?>/img/giacomisi.jpg"/></a>
 				</li>
 				<li class="sponsor-logo">
-					<a href="http://www.sanjosetelleva.com.ar/"><img src="http://localhost/TEDx/img/san_jose.jpg"/></a>
+					<a href="http://www.sanjosetelleva.com.ar/"><img src="<?php echo $url?>/img/san_jose.jpg"/></a>
 				</li>
 			</ul>
 
@@ -47,19 +47,19 @@
 
 			<ul>
 				<li class="sponsor-logo">
-					<a href="http://www.lavirginia.com.ar/home.asp"><img src="http://localhost/TEDx/img/la_virginia.jpg"/></a>
+					<a href="http://www.lavirginia.com.ar/home.asp"><img src="<?php echo $url?>/img/la_virginia.jpg"/></a>
 				</li>
 				<li class="sponsor-logo">
-					<a href="http://www.glamfiestas.com.ar/"><img src="http://localhost/TEDx/img/glam.jpg"/></a>
+					<a href="http://www.glamfiestas.com.ar/"><img src="<?php echo $url?>/img/glam.jpg"/></a>
 				</li>
 				<li class="sponsor-logo">
-					<a href="http://talentos-sa.com.ar/"><img src="http://localhost/TEDx/img/talentos.jpg"/></a>
+					<a href="http://talentos-sa.com.ar/"><img src="<?php echo $url?>/img/talentos.jpg"/></a>
 				</li>
 				<li class="sponsor-logo">
-					<a href="http://www.anunico.com/"><img src="http://localhost/TEDx/img/anunico.jpg"/></a>
+					<a href="http://www.anunico.com/"><img src="<?php echo $url?>/img/anunico.jpg"/></a>
 				</li>
 				<li class="sponsor-logo">
-					<a href="http://www.topgroup.com.ar/"><img src="http://localhost/TEDx/img/topgroup.jpg"/></a>
+					<a href="http://www.topgroup.com.ar/"><img src="<?php echo $url?>/img/topgroup.jpg"/></a>
 				</li>
 			</ul>
 
@@ -67,13 +67,13 @@
 
 			<ul>
 				<li class="sponsor-logo">
-					<a href="http://www.santafeciudad.gov.ar/"><img src="http://localhost/TEDx/img/santa_fe_ciudad.jpg"/></a>
+					<a href="http://www.santafeciudad.gov.ar/"><img src="<?php echo $url?>/img/santa_fe_ciudad.jpg"/></a>
 				</li>
 				<li class="sponsor-logo">
-					<a href="http://www.ellitoral.com/"><img src="http://localhost/TEDx/img/el_litoral.jpg"/></a>
+					<a href="http://www.ellitoral.com/"><img src="<?php echo $url?>/img/el_litoral.jpg"/></a>
 				</li>
 				<li class="sponsor-logo">
-					<a href="http://eventioz.com.ar/"><img src="http://localhost/TEDx/img/eventioz.jpg"/></a>
+					<a href="http://eventioz.com.ar/"><img src="<?php echo $url?>/img/eventioz.jpg"/></a>
 				</li>
 			</ul>
 

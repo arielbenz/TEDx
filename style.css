@@ -13,7 +13,7 @@ article, footer, header, nav, section {
 body {
 	background: #FFF;
 	color: #000;
-	font-family: Helvetica, Verdana;
+	font-family: "Open Sans", Arial;
 	font-size: 16px;
 }
 
@@ -161,6 +161,7 @@ nav {
 	margin: 0 auto;
 	padding: 1.2em 0;
 	text-align: center;
+	/*border-bottom: 0.1em solid #DEDEDE;*/
 }
 
 nav ul {
@@ -169,7 +170,7 @@ nav ul {
 
 nav li {
 	display: inline-block;
-	padding: 0.2em 0.9em;
+	padding: 0.2em 0.7em;
 }
 
 nav .menu-actual a {
@@ -179,20 +180,19 @@ nav .menu-actual a {
 
 nav a {
 	background: #FFF;
-	border-top: 0.06em solid #DEDEDE;
-	/*border-radius: 0 0.6em 0.6em 0.6em;*/
+	border-top: 0.1em solid #DEDEDE;
 	color: #777;
 	display: block;
-	font-family: Helvetica, Verdana;
+	font-family: "Oswald";
 	font-size: 1.1em;
 	padding: 0.2em;
-	-webkit-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
 }
 
 nav a:hover {
 	border-top: 0.06em solid #ff2b06;
 	color: #ff2b06;
-	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
 }
 
 section .content {
@@ -261,6 +261,8 @@ section #content-orador {
 	margin: 0 auto;
 	max-width: 60%;
 	color: #555;
+	overflow: hidden;
+	text-align: center;
 }
 
 section #content-orador #orador-pic {
@@ -290,6 +292,7 @@ section #content-organizador {
 	max-width: 60%;
 	color: #555;
 	overflow: hidden;
+	text-align: center;
 }
 
 section #organizador-pic {
@@ -387,7 +390,7 @@ section #sponsors {
 .post {
 	margin-bottom: 40px;
 	color: #555555;
-	border-top: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
 	padding: 20px;
 	text-shadow: 1px 1px 8px #ccc;
 }
@@ -410,7 +413,7 @@ section #sponsors {
 	font-size: 1em;
 }
 
-.post-info img {
+.post-info p a img {
 	max-width: 100%;
 	margin: 10px;
 }
@@ -465,6 +468,10 @@ section #sponsors {
 	margin: 0 auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+.text .widget_recent_entries ul {
+	list-style: none;
 }
 
 .title {
@@ -568,14 +575,17 @@ button.submit:active {
     box-shadow: 0 0 10px 5px #444 inset;
 }
 
-@media(min-width: 1500px) {
+
+/**MEDIA QUERIES**/
+
+@media(max-width: 1920px) {
 	header h2 {
 		text-align: left;
 		width: 35%;
 	}
 
 	nav {
-		width: 60%;
+		max-width: 60%;
 	}
 
 	.text {
@@ -590,11 +600,19 @@ button.submit:active {
 	}
 
 	nav {
-		width: 60%;
+		max-width: 90%;
 	}
 
 	.text {
 		max-width: 60%;
+	}
+
+	#principal {
+		max-width: 80%;
+	}
+
+	#principal h3 {
+		font-size: 2.8em;
 	}
 
 	header #page-header {
@@ -613,12 +631,52 @@ button.submit:active {
 	#page-header #frase a img {
 		max-width: 80%;
 	}
+
+	/*ORGANIZADOR*/
+
+	section #content-organizador {
+		margin: 0 auto;
+		max-width: 80%;
+		color: #555;
+		text-align: center;
+	}
+
+	section #content-organizador #organizador-info {
+		max-width: 65%;
+		display: inline-block;
+	}
+
+	/*ORADOR*/
+
+	section #content-orador {
+		margin: 0 auto;
+		max-width: 80%;
+		color: #555;
+	}
+
+	section #content-orador #orador-info {
+		max-width: 65%;
+		display: inline-block;
+	}
 }
 
 
-@media(max-width: 1080px) {
+@media(max-width: 1024px) {
+
+	nav {
+		max-width: 90%;
+	}
+
 	nav li {
 		font-size: 1em;
+	}
+
+	#principal h3 {
+		font-size: 2em;
+	}
+
+	#principal {
+		max-width: 90%;
 	}
 
 	.text {
@@ -652,12 +710,12 @@ button.submit:active {
 
 	section #content-organizador {
 		margin: 0 auto;
-		max-width: 70%;
+		max-width: 80%;
 		color: #555;
 	}
 
 	section #content-organizador #organizador-info {
-		max-width: 50%;
+		max-width: 60%;
 		display: inline-block;
 	}
 
@@ -665,12 +723,12 @@ button.submit:active {
 
 	section #content-orador {
 		margin: 0 auto;
-		max-width: 70%;
+		max-width: 80%;
 		color: #555;
 	}
 
 	section #content-orador #orador-info {
-		max-width: 50%;
+		max-width: 60%;
 		display: inline-block;
 	}
 }
@@ -717,12 +775,12 @@ button.submit:active {
 
 	section #content-organizador {
 		margin: 0 auto;
-		max-width: 80%;
+		max-width: 90%;
 		color: #555;
 	}
 
 	section #content-organizador #organizador-info {
-		max-width: 40%;
+		max-width: 50%;
 		display: inline-block;
 	}
 
@@ -730,12 +788,12 @@ button.submit:active {
 
 	section #content-orador {
 		margin: 0 auto;
-		max-width: 80%;
+		max-width: 90%;
 		color: #555;
 	}
 
 	section #content-orador #orador-info {
-		max-width: 40%;
+		max-width: 50%;
 		display: inline-block;
 	}
 
@@ -828,7 +886,7 @@ button.submit:active {
 
 	section #content-organizador {
 		margin: 0 auto;
-		max-width: 80%;
+		max-width: 90%;
 		color: #555;
 		text-align: center;
 	}
@@ -836,6 +894,10 @@ button.submit:active {
 	section #content-organizador #organizador-info {
 		max-width: 100%;
 		display: inline-block;
+	}
+
+	section #organizador-pic {
+		float: none;
 	}
 
 	section #organizador-pic img {
@@ -853,9 +915,13 @@ button.submit:active {
 
 	section #content-orador {
 		margin: 0 auto;
-		max-width: 80%;
+		max-width: 90%;
 		color: #555;
 		text-align: center;
+	}
+
+	section #content-orador #orador-pic {
+		float: none;
 	}
 
 	section #content-orador #orador-pic img {
