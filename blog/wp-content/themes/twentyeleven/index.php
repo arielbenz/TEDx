@@ -12,7 +12,7 @@
  * @subpackage Twenty_Eleven
  */
 
-include $_SERVER ['DOCUMENT_ROOT'].'TEDx/header.php';?>
+include $_SERVER ['DOCUMENT_ROOT'].'header.php';?>
 
 	<div id="noticias">
 		<?php if ( have_posts() ) : ?>
@@ -54,4 +54,4 @@ include $_SERVER ['DOCUMENT_ROOT'].'TEDx/header.php';?>
 		<?php endif; ?>
 	</div><!-- #primary -->
 
-<?php include $_SERVER ['DOCUMENT_ROOT'].'TEDx/footer.php'; ?>
+<?php include $_SERVER ['DOCUMENT_ROOT'].'footer.php'; ?>

@@ -2,9 +2,9 @@
 <html lang="es">
 
 	<?php
-		require_once($_SERVER ['DOCUMENT_ROOT'].'TEDx/blog/wp-config.php');
+		require_once($_SERVER ['DOCUMENT_ROOT'].'/blog/wp-config.php');
 		$my_query = new WP_Query('showposts=5');
-		$url = "http://localhost/TEDx";
+		$url = "http://tedxlagunasetubal.org";
 	?>
 
 <head>

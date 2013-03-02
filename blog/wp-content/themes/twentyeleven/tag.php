@@ -7,7 +7,7 @@
  * @since Twenty Eleven 1.0
  */
 
-include $_SERVER ['DOCUMENT_ROOT'].'TEDx/header.php';?>
+include $_SERVER ['DOCUMENT_ROOT'].'header.php';?>
 
 
 			<div id="noticias">
@@ -51,4 +51,4 @@ include $_SERVER ['DOCUMENT_ROOT'].'TEDx/header.php';?>
 			</div><!-- #content -->
 
 
-<?php include $_SERVER ['DOCUMENT_ROOT'].'TEDx/footer.php'; ?>
+<?php include $_SERVER ['DOCUMENT_ROOT'].'footer.php'; ?>
